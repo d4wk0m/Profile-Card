@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: #19a2ae;
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-position: -100% 150%, 150% -100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.profile{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: -15%;
+    text-align: center  ;
+}
+
+hr{
+    opacity: 0.25;
+}
+
+.profile h1{
+    margin-bottom: 0px;  
+    color: hsl(227, 10%, 46%);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.profile strong{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.profile p{
+    margin-top: 0px;    
+    color: hsl(227, 10%, 46%);
+}
+
+.profileimg{
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block;
+    overflow: hidden;
+    transform: translateY(-55%);
+}
+
+.table{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.table h3{
+    margin: 0px;
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.table p{
+    margin: 0px;
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+    font-weight: 400;
+}
